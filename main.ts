@@ -35,9 +35,8 @@ input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Happy)
   }
   else {
-    (number1 > number2)
     basic.showNumber(number1)
-    basic.showString('<')
+    basic.showString('>')
     basic.showNumber(number2)
     basic.showIcon(IconNames.Sad)
   }
