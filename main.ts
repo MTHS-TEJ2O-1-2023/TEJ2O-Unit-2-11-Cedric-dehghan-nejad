@@ -14,8 +14,8 @@ let number1: number
 let number2: number 
 
 //randint 
-number1 = randint (0, 99)
-number2 = randint (0, 99)
+number1 = randint (0,99)
+number2 = randint (0,99)
 
 input.onButtonPressed(Button.A, function () {
   basic.showString('#')
@@ -34,6 +34,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.showNumber(number2)
     basic.showIcon(IconNames.Happy)
   }
+
   else {
     basic.showNumber(number1)
     basic.showString('>')
