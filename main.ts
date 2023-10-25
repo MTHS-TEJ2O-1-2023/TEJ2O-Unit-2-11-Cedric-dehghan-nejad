@@ -13,7 +13,7 @@ basic.showIcon(IconNames.Happy)
 let number1: number = randint(0, 99)
 let number2: number = randint(0, 99)
 
-//random number from 0 to 99
+// random number from 0 to 99
 number1 = randint(0, 99)
 number2 = randint(0, 99)
 
